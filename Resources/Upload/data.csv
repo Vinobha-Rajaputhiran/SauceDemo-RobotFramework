@@ -1,0 +1,8 @@
+*** Test Cases ***,${username},${password}
+Verify Login Passes - Correct Username and Password,standard_user,secret_sauce
+Verify Login Fails - Correct Username and Incorrect Password,standard_user,secret_password
+Verify Login Fails - Incorrect Username and Correct Password,lumatester,Luma@1234
+Verify Login Fails - Blank Username and Password,,
+Verify Login Fails - Correct Username and Blank Password,standard_user,
+Verify Login Fails - Blank Username and Correct Password,,secret_sauce
+Verify Login Fails - Locked Out User,locked_out_user,secret_sauce
